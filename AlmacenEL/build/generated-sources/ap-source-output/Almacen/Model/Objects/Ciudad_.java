@@ -1,0 +1,17 @@
+package Almacen.Model.Objects;
+
+import Almacen.Model.Objects.Tienda;
+import javax.annotation.Generated;
+import javax.persistence.metamodel.CollectionAttribute;
+import javax.persistence.metamodel.SingularAttribute;
+import javax.persistence.metamodel.StaticMetamodel;
+
+@Generated(value="EclipseLink-2.7.7.v20200504-rNA", date="2021-09-08T09:38:48")
+@StaticMetamodel(Ciudad.class)
+public class Ciudad_ { 
+
+    public static volatile CollectionAttribute<Ciudad, Tienda> tiendaCollection;
+    public static volatile SingularAttribute<Ciudad, String> codigociudad;
+    public static volatile SingularAttribute<Ciudad, String> nombreciudad;
+
+}
